@@ -1,0 +1,24 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+name: bayesian-tutorial
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - seaborn
+    - sympy
+    - numpy
+    - pymc3
+    - pyvis
+    - descartes
+    - jupyter
+    - jupyterlab
+    - geoviews
+    - dash
+    - pystan
+    - hvplot
+    - arviz
+    - rise
+    - jedi-language-server
